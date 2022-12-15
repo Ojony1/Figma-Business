@@ -1,0 +1,290 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.header{
+    background-image: url(./images/Wallpaper.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 110vh;
+}
+
+.header .header_container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header .header_container .navs{
+    flex-basis: 60%;
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+}
+
+.header .header_container .navs nav{
+    flex-basis: 60%;
+}
+
+
+.header .header_container .navs nav ul{
+    display: flex;
+    justify-content: space-between;
+    padding: 0;
+    list-style: none;
+}
+
+.header .header_container .navs nav ul li a{ 
+    text-decoration: none;
+    color:  #fff; ;
+}
+
+.header .head .head-container  h1{
+    font-family: 'Graphik';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 74px;
+    line-height: 84px;
+    text-align: center;
+    letter-spacing: 0.2px;
+    color: #FFFFFF;
+}
+.header .head .text h4{
+    font-family: 'Graphik';
+font-style: normal;
+font-weight: 400;
+font-size: 28px;
+line-height: 40px;
+text-align: center;
+letter-spacing: 0.2px;
+color: #FFFFFF;
+}
+.header .head .button{
+    font-family: 'Graphik';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 20px;
+text-align: center;
+letter-spacing: 0.2px;
+color: #FFFFFF;
+
+}
+
+.header .head .button button{
+    width: 236px;
+height: 52px;
+
+
+
+background: #2091F9;
+border-radius: 35px;
+}
+/* Start Feature */
+.feature .frist{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.feature .frist .text{
+    width: 40%;
+    text-align: center;
+}
+
+.feature .feature-container{
+    display: flex;
+    justify-content:space-around;
+}
+.box{
+text-align: center;
+flex-basis: 25%;
+}
+.video{
+    text-align: center;
+
+}
+
+.video video{
+    width: 100%;
+}
+
+
+.fastest .fastest-container .first .button{
+    font-family: 'Graphik';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 20px;
+text-align: left;;
+letter-spacing: 0.2px;
+color: #FFFFFF;
+
+}
+
+.fastest .fastest-container .first{
+    flex-basis: 50%;
+}
+
+.fastest .fastest-container .first .button button{
+    width: 236px;
+height: 52px;
+
+background: #2091F9;
+border-radius: 35px;
+}
+
+.fastest .fastest-container{
+    display: flex;
+    align-items: center;
+}
+
+
+
+
+.lighting .lighting-container .second{
+    flex-basis: 45%;
+}
+.lighting .lighting-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+
+
+/* light background */
+
+background: #FFFFFF;
+}
+.lighting .lighting-container .first {
+    flex-basis: 45%;
+}
+
+.lighting .lighting-container .first img{
+    width: 100%;
+}
+.lighting .lighting-container .second button{
+    width: 236px;
+height: 52px;
+
+background: #2091F9;
+border-radius: 35px;
+}
+.lighting .lighting-container .second input{
+padding: 10px;
+
+background: #ffffff;
+border-radius: 35px;
+}
+.img{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.img .box{
+    flex-basis: 15%;
+}
+.test .test-container .button{
+
+    text-align: center;
+    
+}
+
+
+.test .test-container .button button{
+    width: 236px;
+    height: 52px;
+    background: #2091F9;
+    border-radius: 35px;
+}
+
+
+.testimonails .testimonails-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+} 
+
+.testimonails .testimonails-container .box{
+    display: flex;
+    align-items: center;
+}
+.pricing {
+    background-color: #252B42;
+}
+.contact .contact-container{
+    display: flex;
+    justify-content: space-between;
+    
+}
+.contact .contact-container .second .icon{
+    display: flex;
+    justify-content: space-between;
+}
+
+.contact .contact-container .first{
+    flex-basis: 30%;
+}
+
+.contact .contact-container .second .icon .box{
+    flex-basis: 50%;
+}
+.contact .contact-container .second {
+flex-basis: 65%;
+padding-left: 20px;
+}
+.contact .contact-container .first{
+    background: #FFFFFF;
+    border: 1px solid #DDDDDD;
+    box-shadow: 0px 13px 19px rgba(0, 0, 0, 0.07);
+    border-radius: 20px;
+    padding: 52px 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.contact .contact-container .first input{
+    width: 353px;
+height: 54px;
+padding: 19px 20px;
+background: #F5F5F5;
+border: 1px solid #E8E8E8;
+border-radius: 39px;
+
+}
+.contact .contact-container .first textarea{
+    padding: 23px 20px;
+
+
+width: 353px;
+height: 193px;
+
+background: #F5F5F5;
+border: 1px solid #E8E8E8;
+}
+.contact .contact-container .first .button button{
+    font-family: 'Graphik';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 20px;
+text-align: center;;
+letter-spacing: 0.2px;
+color: #FFFFFF;
+width: 236px;
+height: 52px;
+
+background: #2091F9;
+border-radius: 35px;
+
+}
+.contact .contact-container .second .images{
+    text-align: center;
+}
+.contact .contact-container .second .end img{
+    padding-left: 10px;
+}
